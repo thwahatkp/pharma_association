@@ -1,0 +1,77 @@
+.margin-bt-5{
+    margin-bottom: 5rem;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+}
+.apply-btn{
+    position: relative;
+    margin:0.5rem;
+    align-self: flex-end;
+}
+.story-desc{
+    position: relative; 
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.apply-btn .btn{
+    background: #d2151e;
+    width: 20rem;
+    height: 4.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border-radius: 1rem;
+    outline: none;
+    color: white;
+    border: none;
+}
+.apply-btn .btn:hover{
+    outline: none;
+    color: white;
+    opacity: 0.8;
+
+}
+.apply-btn .btn:focus{
+    outline: none;
+    color: white;
+    opacity: 0.8;
+
+}
+.job-details h4{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    opacity: 0.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.job-details p{
+    font-weight: 500;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight:bolder  ;
+    font-size: 16px;
+}
+.modal-header{
+    display: block;
+}
+.close{
+    margin: 5px;
+}
+.modal-title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
+}
+.captcha{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.captcha p{
+    border-radius: 14px;
+    font-size: 16px;
+    width: 20%;
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+    padding: 1%;
+}
