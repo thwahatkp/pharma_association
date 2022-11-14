@@ -264,17 +264,14 @@ $jobDetails = $app['database']->GetJobDetails();
                                             </label>
                                           </div>
 
-                                          <div id="show-state" style="display:none;">
+                                          <div id="show-state" style="display:none; margin-bottom:3%;">
                                             <label class="mb-2 font-size-14">State name</label>
                                             <input id="" type="text" class="form-control mb-2" name=""
                                                 placeholder="State" />
                                           </div>
-
+                                          <button class="btn btn-primary" style="float: right; width:12%;" type="submit" >Apply</button>
 
                                     </form>
-
-
-
 
                                     <!-- </div> -->
                                 </div>

@@ -9,7 +9,7 @@
 
 $sql_details = array(
     'user' => 'root',
-    'pass' => '9567',
+    'pass' => '',
     'db'   => 'chamber_of_pharma',
     'host' => '127.0.0.1'
 );

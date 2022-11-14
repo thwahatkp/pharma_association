@@ -179,11 +179,11 @@
                                         <h2 class="m-b15 title">Mission</h2>
 
                                         <p style="text-align:justify ;" class="m-b30">
-                                            To Ensure responsible , sustainable and ethical way of pharmaceutical business practices among member organizations.
-
-                                            To take the lead role in welfare and development of the member companies thereby creating a healthy atmosphere for growth and development of the industry.
-
-                                            To provide innovative healthcare solutions to the society by combining core competencies of member companies and world class manufacturers
+                                        Chamber of Pharma works together to overcome the issues faced by our members and attain positive outcome.
+Chamber of Pharma always in coordination with similar organisations across India for keeping the pride of the represented segment .
+When we look back with pride and satisfaction ,we could say that we have been able to work an organisation as socially committed business community.
+Today Chamber of Pharma Enterprenurs as an organisation has more than 100 pharmaceutical companies operating in Kerala.
+Our member companies offer employment opportunities more than 4000 employees and also providing ample business opportunities for various supporting industries .
                                         </p>
 
                                     </div>
