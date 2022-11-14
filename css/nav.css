@@ -27,7 +27,7 @@
     transform: scale(1);
   }
   .active-nav .nav-active{
-    border-bottom: 2px solid #d2151e;
+    border-bottom: 2px solid #028cd4;
   }
   #navbarDropdown i{
     position: absolute;

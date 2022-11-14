@@ -62,7 +62,7 @@
                     <div class="container clearfix">
 
                         <div class="logo-header mostion logo-dark">
-                            <a href="./index.php"><img src="./img/logo 3.png" alt="" /></a>
+                            <a href="./index.php"><img src="img/WhatsApp-removebg.png" alt="" /></a>
                         </div>
 
                         <button class="navbar-toggler collapsed navicon justify-content-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -70,10 +70,6 @@
                             <span></span>
                             <span></span>
                         </button>
-
-
-
-
 
                         <div class="header-nav navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
                             <div class="logo-header d-md-block d-lg-none">
@@ -87,29 +83,8 @@
                                 <li class="active has-mega-menu homedemo">
                                     <a href="./about.php">About</a>
 
-                                </li>
-                                <li class="has-mega-menu homedemo">
-                                <li class="nav-item dropdown">
-                                    <a class="" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Products <i class="ti-angle-down"></i>
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="./commercial.php">Commercial LPG</a>
-                                        <a class="dropdown-item" href="./domestic.php">Domestic LPG</a>
-                                    </div>
-                                </li>
-                                </li>
-                                <li class="has-mega-menu homedemo">
-                                    <a href="./safety-tips.php">Safety Tips</a>
-
-                                </li>
-
                                 <li class=" has-mega-menu homedemo">
                                     <a href="./gallery.php">Gallery</a>
-
-                                </li>
-                                <li class=" has-mega-menu homedemo">
-                                    <a href="./franchisee.php">Franchisee</a>
 
                                 </li>
                                 <li class="has-mega-menu homedemo">
@@ -117,7 +92,8 @@
 
                                 </li>
                                 <li class="has-mega-menu homedemo">
-                                    <a href="./careers.php">Careers</a>
+                                    <a href="./membership.php">Membership</a>
+
                                 </li>
 
 
@@ -170,28 +146,44 @@
                             <div class="row d-flex">
                                 <div class="col-lg-6 col-md-12 m-b30">
                                     <div class="video-bx">
-                                        <img src="./img/compress/8.jpg" alt="Signature">
+                                        <img src="./img/vision.jpeg" alt="Signature">
 
                                     </div>
                                 </div>
                                 <div class="col-lg-6 col-md-12 m-b30 align-self-center video-infobx">
                                     <div class="content-bx1">
-                                        <h2 class="m-b15 title">Trusted Cooking Gas Partner</h2>
+                                        <h2 class="m-b15 title">Vision</h2>
 
                                         <p style="text-align:justify ;" class="m-b30">
-                                            Malabar Fuel Corporation has been continuously involved in
-                                            bottling of LPG as domestic and commercial under the brand name
-                                            of MALABAR GAS since 1996. This is the first LPG bottling plant in Kerala
-                                            and the only one in Malabar area. Our retail business
-                                            provides value to our customers, backed by superior Technology. The assurance
-                                            of right quality at the right price offers true value to all our customers.
+                                            provide greater access to quality healthcare of global standards , affordable to society
+                                        </p>
 
-                                            Our business
-                                            serves thousands of happy customers across homes,
-                                            hotels and other commercial establishments through
-                                            our dealer outlets. Our diligent service and honesty
-                                            in the industry should gain better result in the
-                                            year to come.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-full content-inner bg-white video-section">
+                    <div class="container">
+                        <div class="section-content">
+                            <div class="row d-flex">
+                            <div class="col-lg-6 col-md-12 m-b30">
+                                    <div class="video-bx">
+                                        <img src="./img/mission.jpeg" alt="Signature">
+
+                                    </div>
+                                </div>
+                            <div class="col-lg-6 col-md-12 m-b30 align-self-center video-infobx">
+                                    <div class="content-bx1">
+                                        <h2 class="m-b15 title">Mission</h2>
+
+                                        <p style="text-align:justify ;" class="m-b30">
+                                            To Ensure responsible , sustainable and ethical way of pharmaceutical business practices among member organizations.
+
+                                            To take the lead role in welfare and development of the member companies thereby creating a healthy atmosphere for growth and development of the industry.
+
+                                            To provide innovative healthcare solutions to the society by combining core competencies of member companies and world class manufacturers
                                         </p>
 
                                     </div>
@@ -201,23 +193,7 @@
                     </div>
                 </div>
 
-
-                <section id="skills" class="skills">
-                    <div class="col-lg-12" data-aos="zoom-out" data-aos-delay="100">
-                        <div align="center" class="embed-responsive embed-responsive-16by9">
-
-                            <iframe id="video" height="500" style="width: 90%;" src="https://www.youtube.com/embed/bxjIoPZjCo4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
-                        </div>
-                    </div>
-                </section>
-
-
-
-
-                <div class="section-full box-about-list" style="margin-top: 70px;">
+                <!-- <div class="section-full box-about-list" style="margin-top: 70px;">
                     <div class="row spno">
                         <div class="col-lg-6 col-md-12">
                             <img src="./img/compress/5.jpg" alt="" class="img-cover">
@@ -269,111 +245,14 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
 
 
             </div>
 
         </div>
-
-
-        <footer class="site-footer">
-            <div class="footer-top" style="
-            background-image: url(images/background/bg3.png);
-            background-size: cover;
-          ">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3 col-5 col-xl-2 col-lg-2 col-sm-6 footer-col-4">
-                            <div class="widget widget_services border-0">
-                                <h5 class="footer-title text-white">Company</h5>
-                                <ul>
-                                    <li><a href="./index.php">Home</a></li>
-                                    <li><a href="./about.php">About</a></li>
-                                    <li><a href="./gallery.php">Gallery</a></li>
-
-                                    <li><a href="./contact.php">Contact </a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-7 col-xl-2 col-lg-3 col-sm-6 footer-col-4">
-                            <div class="widget widget_services border-0">
-                                <h5 class="footer-title text-white">Useful Link</h5>
-                                <ul>
-                                    <li><a href="./domestic.php">Domestic LPG </a></li>
-                                    <li><a href="./commercial.php">Commercial LPG</a></li>
-                                    <li><a href="./safety-tips.php">Safety Tips</a></li>
-                                    <li><a href="./franchisee.php">Franchisee</a></li>
-
-
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-4 col-lg-3 col-sm-6 footer-col-4">
-                            <div class="widget widget_getintuch">
-                                <h5 class="footer-title text-white">Contact us</h5>
-                                <ul>
-                                    <li>
-                                        <i class="ti-location-pin"></i><strong>address</strong>Malabar Fuel Corporation,
-                                        LPG Bottling Plant
-                                        Elamberampara Pallivayal(P.O),
-                                        Thaliparamba,Kannur
-                                    </li>
-                                    <li>
-                                        <i class="ti-mobile"></i><strong>phone</strong>0460 2227420
-
-                                    </li>
-                                    <li>
-                                        <i class="ti-email"></i><strong>email</strong>info@malabargas.com
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-12 col-xl-4 col-lg-4 footer-col-4">
-                            <div class="widget">
-                                <h5 class="footer-title text-white">
-                                    Malabar Fuel Corporation
-                                </h5>
-                                <p class="text-capitalize m-b20">
-                                    Malabar Fuel Corporation has been continuously involved in
-                                    bottling of LPG as domestic and commercial under the brand
-                                    name of MALABAR GAS since 1996.
-                                </p>
-
-                                <ul class="list-inline m-a0">
-                                    <li>
-                                        <a href="#" class="site-button facebook circle"><i class="fab fa-facebook-f"></i></a>
-                                    </li>
-
-                                    </li>
-                                    <li>
-                                        <a href="#" class="site-button instagram circle"><i class="fab fa-instagram"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="site-button twitter circle"><i class="fab fa-twitter"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="footer-bottom">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 text-left">
-                            <span> Designed & Developed by
-                                <a href="https://www.codeorganization.com/" target="_blank">CodeOrganization &#128293;</a></span>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </footer>
-
-
+        <?php include("./includes/footer.php") ?>
     </div>
 
 

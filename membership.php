@@ -77,10 +77,12 @@ $jobDetails = $app['database']->GetJobDetails();
                     <div class="container clearfix">
 
                         <div class="logo-header mostion logo-dark">
-                            <a href="./index.php"><img src="./img/logo 3.png" alt="" /></a>
+                            <a href="./index.php"><img src="./img/WhatsApp-removebg.png" alt="" /></a>
                         </div>
 
-                        <button class="navbar-toggler collapsed navicon justify-content-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <button class="navbar-toggler collapsed navicon justify-content-end" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                             <span></span>
                             <span></span>
                             <span></span>
@@ -102,36 +104,17 @@ $jobDetails = $app['database']->GetJobDetails();
                                 <li class=" has-mega-menu homedemo">
                                     <a href="./about.php">About</a>
 
-                                </li>
-                                <li class="has-mega-menu homedemo">
-                                <li class="nav-item dropdown">
-                                    <a class="" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Products <i class="ti-angle-down"></i>
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="./commercial.php">Commercial LPG</a>
-                                        <a class="dropdown-item" href="./domestic.php">Domestic LPG</a>
-                                    </div>
-                                </li>
-                                </li>
-                                <li class="has-mega-menu homedemo">
-                                    <a href="./safety-tips.php">Safety Tips</a>
-
-                                </li>
-
                                 <li class=" has-mega-menu homedemo">
                                     <a href="./gallery.php">Gallery</a>
 
                                 </li>
                                 <li class="has-mega-menu homedemo">
-                                    <a href="./franchisee.php">Franchisee</a>
+                                    <a href="./contact.php">Contact</a>
 
                                 </li>
-                                <li class="has-mega-menu homedemo">
-                                    <a href="./contact.php">Contact</a>
-                                </li>
                                 <li class="active has-mega-menu homedemo">
-                                    <a href="./careers.php">Careers</a>
+                                    <a href="./membership.php">Membership</a>
+
                                 </li>
 
 
@@ -162,10 +145,11 @@ $jobDetails = $app['database']->GetJobDetails();
 
 
         <div class="page-content bg-white">
-            <div class="dlab-bnr-inr overlay-black-middle bg-pt" style="background-image:url(./img/banner/franchise.jpg);">
+            <div class="dlab-bnr-inr overlay-black-middle bg-pt"
+                style="background-image:url(./img/banner/franchise.jpg);">
                 <div class="container">
                     <div class="dlab-bnr-inr-entry">
-                        <h1 style="color:white;" class="title">Find A Careers</h1>
+                        <h1 style="color:white;" class="title">Membership</h1>
 
 
 
@@ -184,122 +168,123 @@ $jobDetails = $app['database']->GetJobDetails();
 
                     <div class="row">
 
-                        <div class="col-lg-8" id="mainContent" style="padding-left:25px;padding-right:25px;">
+                        <div class="col-lg-12" id="mainContent" style="padding-left:25px;padding-right:25px;">
 
                             <div class="row filter-box filters">
 
-                                <div class="col-md-6 col-sm-6">
-                                    <select id="category" class="wide price-list" name="category">
-                                        <option value="">All</option>
-                                        <?php
-                                        foreach ($franchisees as $franchisee) { ?>
+                                <div class="col-md-10 col-sm-10" style="margin: 2px auto;">
+                                    <form action="" method="post">
+                                        <!-- <div class="search-wrap"> -->
+                                        <label class="mb-2 font-size-14">Company name</label>
+                                        <input id="" type="text" class="form-control mb-2" name=""
+                                            placeholder="Company" />
 
-                                            <option value=".<?php echo $franchisee->city ?>"><?php echo $franchisee->city ?></option>
-                                        <?php } ?>
-                                    </select>
-                                </div>
-                                <div class="col-md-6 col-sm-6">
-                                    <div class="search-wrap">
-                                        <input id="search" type="text" class="form-control" placeholder="Search..." />
+                                        <label class="mb-2 font-size-14">Address in kerala</label>
+                                        <textarea class="form-control mb-4" placeholder="Address"
+                                            id="exampleFormControlTextarea1" rows="3"></textarea>
+                                        <div class="selctbtn form-control">
 
-                                    </div>
-                                </div>
-                            </div>
-
-
-                            <div class="row grid">
-                                <div>
-                                    <?php foreach ($jobDetails as $jobDetails) { ?>
-                                        <div class="shadow row padding-40 margin-bt-5">
-                                            <!-- <div class="col-md-3">
-                                            <div class="story-himg story-himg-middle-u" style="padding:10px 10px 10px 10px;">
-                                                <img src="https://svrsoftwareservices.com/img/technical/java.jpg" class="img-fluid wow fadeInUp" data-wow-delay="0.1s" alt="">
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                                    id="inlineRadio1" value="option1">
+                                                <label class="form-check-label font-size-14"
+                                                    for="inlineRadio1">Proprietorship</label>
                                             </div>
-                                         </div> -->
-                                            <div class="col-md-12">
-                                                <div class="story-desc story-desc-middle">
-                                                    <h3><?= $jobDetails->title ?></h3>
-                                                    <!-- <div class="heading-border-light"></div> -->
-                                                    <p id="p">
-                                                    <div class="job-details">
-                                                        <h4>Job Description</h4>
-                                                        <p><?= $jobDetails->job_description ?></p>
-
-                                                        <h4>Qualification</h4>
-                                                        <p><?= $jobDetails->qualification ?></p>
-
-                                                        <h4>Posted On</h4>
-                                                        <p><?= $jobDetails->posted_on ?></p>
-                                                    </div>
-                                                    </p>
-                                                    <div class="apply-btn">
-                                                        <button class="btn" onclick="document.getElementById('job-id').value=<?= $jobDetails->id ?>" data-toggle="modal" data-target="#exampleModal">Apply</button>
-
-                                                    </div>
-                                                </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                                    id="inlineRadio2" value="option2">
+                                                <label class="form-check-label font-size-14"
+                                                    for="inlineRadio2">Partnership</label>
+                                            </div>
+                                            <div class="form-check form-check-inline">
+                                                <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                                    id="inlineRadio3" value="option3">
+                                                <label class="form-check-label font-size-14 mb-4 "
+                                                    for="inlineRadio3">PVT
+                                                    LTD Company</label>
                                             </div>
                                         </div>
-                                    <?php } ?>
-                                </div>
-                            </div>
+                                        <br>
 
-                        </div>
-                        <!-- ----------------------popup modal bootstrap---------------------- -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            <div class="modal-dialog" role="document">
-                                <div class="modal-content">
-                                    <div class="modal-header" style="background-color: #d2151e; ">
-                                        <h5 class="modal-title" id="exampleModalLabel">UPLOAD DETAILS</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                        </button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <form method="post" enctype="multipart/form-data" action="./manage-job.php" id="captcha-check" name="member_signup">
-                                            <div class="form-group">
-                                                <label for="recipient-name" class="col-form-label">Id:</label>
-                                                <input type="text" name="id" class="form-control" id="job-id" readonly>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="name" class="col-form-label">Name: *</label>
-                                                <input type="text" name="name" class="form-control" minlength="3" required>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="name" class="col-form-label">Phone: *</label>
-                                                <input type="tel" name="phone" class="form-control"  required minlength="10">    
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="name" class="col-form-label">Email: *</label>
-                                                <input type="email" name="email" class="form-control" required>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="message-text" class="col-form-label">Message: *</label>
-                                                <textarea class="form-control" name="message" id="message-text" required></textarea>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="name" class="col-form-label">Resume: <span style="font-size: 11px;">(maximum 500KB) </span>*</label>
-                                                <input type="file" name="resume" id="fileToUpload" class="form-control" required>
-                                            </div>
-                                            <div id="errorMsg"></div>
-                                            <div class="captcha">
-                                                <p><span id="num1">1</span> + <span id="num2">20</span></p>
-                                                <input type="text" id="input_val" required oninput="captchaVerify()" class="form-control">
+                                        <label class="mb-2 font-size-14">Name of managing partner / managing
+                                            director</label>
+                                        <input id="" type="text" class="form-control mb-2" name=""
+                                            placeholder="Partner / Director" />
 
-                                            </div>
-                                            <div id="errorCaptcha"></div>
+                                        <label class="mb-2 font-size-14">Mobile</label>
+                                        <input id="" type="number" maxlength="10" class="form-control mb-2" name=""
+                                            placeholder="Mobile no" />
 
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                        <button type="submit" id="captcha-btn" class="btn btn-primary" name="submit">Submit</button>
-                                    </div>
+                                        <label class="mb-2 font-size-14">Email</label>
+                                        <input id="" type="email" class="form-control mb-2" name=""
+                                            placeholder="Email" />
+
+                                        <label class="mb-2 font-size-14">Name of Partners/Directors with mobile
+                                            no</label><br>
+                                        <div class="col-md-6 col-sm-6 mb-2">
+                                            <input id="" type="text" class="form-control mb-2" name=""
+                                                placeholder="Name" />
+                                        </div>
+
+                                        <div class="col-md-6 col-sm-6 mb-2">
+                                            <input id="" type="number" maxlength="10" class="form-control mb-2" name=""
+                                                placeholder="Mobile no" />
+                                        </div>
+
+                                        <div class="col-md-6 col-sm-6 mb-2">
+                                            <input id="" type="text" class="form-control mb-2" name=""
+                                                placeholder="Name" />
+                                        </div>
+
+                                        <div class="col-md-6 col-sm-6 mb-2">
+                                            <input id="" type="text" class="form-control mb-2" name=""
+                                                placeholder="Mobile no" />
+                                        </div>
+
+                                        <label class="mb-2 font-size-14">Name of trademark brands <span
+                                                style="font-size: 11px;">(either TM or REGISTERED)</span> </label>
+                                        <input id="" type="email" class="form-control mb-2" name=""
+                                            placeholder="Brands" />
+
+                                        <div class="col-md-6 col-sm-6 mb-2">
+                                            <label class="mb-2 font-size-14">Year of establishment</label><br>
+                                            <input id="" type="date" class="form-control mb-2" name="" />
+                                        </div>
+
+                                        <div class="col-md-6 col-sm-6 mb-2">
+                                            <label class="mb-2 font-size-14">Name of the division if any</label><br>
+                                            <input id="" type="text" class="form-control mb-2" name="" />
+                                        </div>
+
+                                        <label class="mb-2 font-size-14">Operating any other state</label><br>
+                                        <div class="form-check mb-4">
+                                            <input class="form-check-input other-state" type="checkbox" value="" id="flexCheckDefault">
+                                            <label class="form-check-label" for="flexCheckDefault">
+                                              Yes
+                                            </label>
+                                          </div>
+
+                                          <div id="show-state" style="display:none;">
+                                            <label class="mb-2 font-size-14">State name</label>
+                                            <input id="" type="text" class="form-control mb-2" name=""
+                                                placeholder="State" />
+                                          </div>
+
+
                                     </form>
+
+
+
+
+                                    <!-- </div> -->
                                 </div>
                             </div>
-                        </div>
-                        <!-- ----------------------popup modal bootstrap---------------------- -->
 
-                        <div class="col-lg-4">
+
+
+
+                        </div>
+                        <!-- <div class="col-lg-4">
                             <form method="post" role="form" action="./manage-enquirys.php" id="orderForm" name="orderForm">
 
 
@@ -355,7 +340,7 @@ $jobDetails = $app['database']->GetJobDetails();
                                     </div>
                                 </div>
                             </form>
-                        </div>
+                        </div> -->
 
                     </div>
 
@@ -369,12 +354,16 @@ $jobDetails = $app['database']->GetJobDetails();
 
     <div class="content-block" style="margin-top: 50px;">
 
-        <div class="section-full content-inner-2 bg-primary wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s" style="background-image:url(images/background/map-bg.png);">
+        <div class="section-full content-inner-2 bg-primary wow fadeIn" data-wow-duration="2s" data-wow-delay="0.2s"
+            style="background-image:url(images/background/map-bg.png);">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center service-info">
-                        <h2 class="title text-white">Prominent in cooking gas supply sector Malabar Gas is inviting dealerships from under-represented locations as part of its business expansion.</h2>
-                        <a href="tel: 0460 2227420" class="site-button white align-self-center outline ms-auto radius-xl outline-2 btnhover16 btnhover16">Contact Now
+                        <h2 class="title text-white">Prominent in cooking gas supply sector Malabar Gas is inviting
+                            dealerships from under-represented locations as part of its business expansion.</h2>
+                        <a href="tel: 0460 2227420"
+                            class="site-button white align-self-center outline ms-auto radius-xl outline-2 btnhover16 btnhover16">Contact
+                            Now
                         </a>
                     </div>
                 </div>
@@ -384,102 +373,7 @@ $jobDetails = $app['database']->GetJobDetails();
 
     </div>
     </div>
-
-
-    <footer class="site-footer">
-        <div class="footer-top" style="
-            background-image: url(images/background/bg3.png);
-            background-size: cover;
-          ">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-5 col-xl-2 col-lg-2 col-sm-6 footer-col-4">
-                        <div class="widget widget_services border-0">
-                            <h5 class="footer-title text-white">Company</h5>
-                            <ul>
-                                <li><a href="./index.php">Home</a></li>
-                                <li><a href="./about.php">About</a></li>
-                                <li><a href="./gallery.php">Gallery</a></li>
-
-                                <li><a href="./contact.php">Contact </a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-7 col-xl-2 col-lg-3 col-sm-6 footer-col-4">
-                        <div class="widget widget_services border-0">
-                            <h5 class="footer-title text-white">Useful Link</h5>
-                            <ul>
-                                <li><a href="./domestic.php">Domestic LPG </a></li>
-                                <li><a href="./commercial.php">Commercial LPG</a></li>
-                                <li><a href="./safety-tips.php">Safety Tips</a></li>
-                                <li><a href="./franchisee.php">Franchisee</a></li>
-
-
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-xl-4 col-lg-3 col-sm-6 footer-col-4">
-                        <div class="widget widget_getintuch">
-                            <h5 class="footer-title text-white">Contact us</h5>
-                            <ul>
-                                <li>
-                                    <i class="ti-location-pin"></i><strong>address</strong>Malabar Fuel Corporation,
-                                    LPG Bottling Plant
-                                    Elamberampara Pallivayal(P.O),
-                                    Thaliparamba,Kannur
-                                </li>
-                                <li>
-                                    <i class="ti-mobile"></i><strong>phone</strong>0460 2227420
-
-                                </li>
-                                <li>
-                                    <i class="ti-email"></i><strong>email</strong>info@malabargas.com
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-12 col-xl-4 col-lg-4 footer-col-4">
-                        <div class="widget">
-                            <h5 class="footer-title text-white">
-                                Malabar Fuel Corporation
-                            </h5>
-                            <p class="text-capitalize m-b20">
-                                Malabar Fuel Corporation has been continuously involved in
-                                bottling of LPG as domestic and commercial under the brand
-                                name of MALABAR GAS since 1996.
-                            </p>
-
-                            <ul class="list-inline m-a0">
-                                <li>
-                                    <a href="#" class="site-button facebook circle"><i class="fab fa-facebook-f"></i></a>
-                                </li>
-
-                                </li>
-                                <li>
-                                    <a href="#" class="site-button instagram circle"><i class="fab fa-instagram"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#" class="site-button twitter circle"><i class="fab fa-twitter"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-sm-6 text-left">
-                        <span> Designed & Developed by
-                            <a href="https://www.codeorganization.com/" target="_blank">CodeOrganization &#128293;</a></span>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </footer>
+    <?php include("./includes/footer.php") ?>
 
 
     </div>
@@ -488,6 +382,8 @@ $jobDetails = $app['database']->GetJobDetails();
     <script src="js/jquery.min.js"></script>
 
     <script src="plugins/wow/wow.js"></script>
+
+    <script src="js/membership.js"></script>
 
 
     <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -566,7 +462,8 @@ $jobDetails = $app['database']->GetJobDetails();
     <script src="https://js.stripe.com/v3/"></script>
 
     <script src="./js/scripts.js"></script>
-    <a href="https://api.whatsapp.com/send?text=Hi Malabar Gas&phone=+919446658372" class="whatsapp_float" target="_blank" rel="noopener noreferrer">
+    <a href="https://api.whatsapp.com/send?text=Hi Malabar Gas&phone=+919446658372" class="whatsapp_float"
+        target="_blank" rel="noopener noreferrer">
         <i class="fa fa-whatsapp whatsapp-icon"></i>
     </a>
 
@@ -577,9 +474,9 @@ $jobDetails = $app['database']->GetJobDetails();
     </div>
 </body>
 <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
         let maxFileSize = 500000;
-        $("#fileToUpload").change(function() {
+        $("#fileToUpload").change(function () {
             console.log(maxFileSize);
             fileSize = this.files[0].size;
             if (fileSize > maxFileSize) {

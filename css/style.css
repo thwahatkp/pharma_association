@@ -69,6 +69,10 @@ select{
 	outline: none;
 }
 
+.font-size-14{
+    font-size: 14px;
+}
+
 .text-secondry {
 	color: var(--text-sec);
 }
@@ -2833,7 +2837,7 @@ blockquote:before {
 .logo-footer img {
     height: auto;
 	width: 100%;
-	max-width: 180px;
+	max-width: 130px;
 }
 .logo-header span,
 .logo-footer span {
@@ -2961,9 +2965,11 @@ blockquote:before {
 }
 .header-nav {
     padding: 0;
+    margin-top: 2%;
 }
 .header-nav .nav {
     float: right;
+    margin-right: 10%;
 }
 .header-nav .nav i {
     font-size: 9px;

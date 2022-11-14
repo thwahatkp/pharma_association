@@ -40,7 +40,6 @@ $testimonials = $app['database']->GetFranchisees();
     <style>
         @import url("../css");
     </style>
-S
 
     <link rel="stylesheet" type="text/css" href="plugins/revolution/revolution/css/revolution.min.css" />
     <!-- -------------------------nav css file------------------------- -->
@@ -63,7 +62,7 @@ S
                     <div class="container clearfix">
 
                         <div class="logo-header mostion logo-dark">
-                            <a href="./index.php"><img src="./img/logo 3.png" alt="" /></a>
+                            <a href="./index.php"><img src="./img/WhatsApp-removebg.png" alt="" /></a>
                         </div>
 
                         <button class="navbar-toggler collapsed navicon justify-content-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -77,53 +76,33 @@ S
 
 
                         <div class="header-nav navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
-                            <div class="logo-header d-md-block d-lg-none">
-                                <a href="./index.php"><img src="./img/logo 3.png" alt="" /></a>
-                            </div>
-                            <ul class="nav navbar-nav">
-                                <li class="has-mega-menu homedemo">
-                                    <a href="./index.php">Home</a>
+              <div class="logo-header d-md-block d-lg-none">
+                <a href="./index.php"><img src="./img/logo 3.png" alt="" /></a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li class="has-mega-menu homedemo">
+                  <a href="./index.php">Home</a>
 
-                                </li>
-                                <li class="has-mega-menu homedemo">
-                                    <a href="./about.php">About</a>
+                </li>
+                <li class="has-mega-menu homedemo">
+                  <a href="./about.php">About</a>
 
-                                </li>
-                                <li class="has-mega-menu homedemo">
-                                <li class="nav-item dropdown">
-                                    <a class="" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Products <i class="ti-angle-down"></i>
-                                    </a>
-                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="./commercial.php">Commercial LPG</a>
-                                        <a class="dropdown-item" href="./domestic.php">Domestic LPG</a>
-                                    </div>
-                                </li>
-                                </li>
-                                <li class="has-mega-menu homedemo">
-                                    <a href="./safety-tips.php">Safety Tips</a>
+                <li class=" has-mega-menu homedemo">
+                  <a href="./gallery.php">Gallery</a>
 
-                                </li>
+                </li>
+                <li class="active has-mega-menu homedemo">
+                  <a href="./contact.php">Contact</a>
 
-                                <li class=" has-mega-menu homedemo">
-                                    <a href="./gallery.php">Gallery</a>
+                </li>
+                <li class="has-mega-menu homedemo">
+                  <a href="./membership.php">Membership</a>
 
-                                </li>
-                                <li class=" has-mega-menu homedemo">
-                                    <a href="./franchisee.php">Franchisee</a>
-
-                                </li>
-                                <li class="active has-mega-menu homedemo">
-                                    <a href="./contact.php">Contact</a>
-
-                                </li>
-                                <li class="has-mega-menu homedemo">
-                                    <a href="./careers.php">Careers</a>
-                                </li>
+                </li>
 
 
-                            </ul>
-                            <!-- <div class="dlab-social-icon ind-social">
+              </ul>
+              <!-- <div class="dlab-social-icon ind-social">
                                 <ul>
                                     <li>
                                         <a class="site-button-link facebook fab fa-facebook-f" href="#"></a>
@@ -140,7 +119,7 @@ S
                                 </ul>
                            
                             </div> -->
-                        </div>
+            </div>
                     </div>
                 </div>
             </div>
@@ -171,8 +150,8 @@ S
                                 <div class="icon-lg text-primary m-b20"> <a href="" class="icon-cell"><i class="ti-location-pin"></i></a> </div>
                                 <div class="icon-content">
                                     <h5 class="dlab-tilte text-uppercase">Address</h5>
-                                    <p>Malabar Fuel Corporation, LPG Bottling Plant <br>
-                                        Elamberampara Pallivayal(P.O)<br> Thaliparamba,Kannur</p>
+                                    <p>Chamber Of Pharma Entrepreneurs, <br>
+                                    Chembaka Housing Colony, Olive Building<br> Chalappuram,Calicut</p>
                                 </div>
                             </div>
                         </div>
@@ -181,8 +160,8 @@ S
                                 <div class="icon-lg text-primary m-b20"> <a href="" class="icon-cell"><i class="ti-email"></i></a> </div>
                                 <div class="icon-content">
                                     <h5 class="dlab-tilte text-uppercase">Email</h5>
-                                    <p><a id="hov" class="emailId" href="mailto:info@malabargas.com">
-                                            info@malabargas.com
+                                    <p><a id="hov" class="emailId" href="mailto:copekerala@gmail.com">
+                                          copekerala@gmail.com
                                         </a><br><br><br></p>
                                 </div>
                             </div>
@@ -192,11 +171,13 @@ S
                                 <div class="icon-lg text-primary m-b20"> <a href="" class="icon-cell"><i class="ti-mobile"></i></a> </div>
                                 <div class="icon-content">
                                     <h5 class="dlab-tilte text-uppercase">Phone</h5>
-                                    <p><a id="hov" class="phone" href="tel: 0460 2227420">
-                                            0460 2227420
-                                        </a><br><a id="hov" class="phone" href="tel: 04602227409">
+                                    <p><a id="hov" class="phone" href="tel: 09544101177">
+                                            +91 9544101177
+                                        </a><br>
+                                        <!-- <a id="hov" class="phone" href="tel: 04602227409">
                                             04602227409
-                                        </a><br><br></p>
+                                        </a> -->
+                                        <br><br></p>
 
                                 </div>
                             </div>
