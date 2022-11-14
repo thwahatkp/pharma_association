@@ -10,6 +10,6 @@
 $sql_details = array(
     'user' => 'root',
     'pass' => '9567',
-    'db'   => 'malabgth_new_db',
+    'db'   => 'chamber_of_pharma',
     'host' => '127.0.0.1'
 );
