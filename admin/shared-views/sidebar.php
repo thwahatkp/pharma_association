@@ -17,39 +17,15 @@
             </a>
         </li>
         <li class="nav-item">
-            <a class="nav-link " href="testimonials.php">
+            <a class="nav-link " href="membership.php">
                 <i class="bi bi-grid"></i>
-                <span>Testimonials</span>
+                <span>Membership</span>
             </a>
         </li>
         <li class="nav-item">
             <a class="nav-link " href="enquirys.php">
                 <i class="bi bi-grid"></i>
                 <span>Enquiry</span>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link " href="products.php">
-                <i class="bi bi-grid"></i>
-                <span>Products</span>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link " href="franchisees.php">
-                <i class="bi bi-grid"></i>
-                <span>Franchisee</span>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link " href="careers.php">
-                <i class="bi bi-grid"></i>
-                <span>Careers</span>
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link " href="application.php">
-                <i class="bi bi-grid"></i>
-                <span>Application</span>
             </a>
         </li>
     </ul>

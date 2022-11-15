@@ -2,6 +2,7 @@
 $database = require 'database/bootstrap.php';
 
 $gallerys = $app['database']->GetGallerys();
+$title = require('./includes/common.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -23,7 +24,7 @@ $gallerys = $app['database']->GetGallerys();
     <link rel="shortcut icon" type="image/x-icon" href="./img/favicon-32x32.png" />
 
 
-    <title>Malabar Gas</title>
+    <title><?= $common['webtitle'] ?></title>
 
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />

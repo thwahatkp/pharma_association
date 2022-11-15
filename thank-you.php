@@ -1,9 +1,10 @@
+<?php $title = require('./includes/common.php'); ?>
 <!doctype html>
 <html lang="en">
 
 <head>
 
-<title>Malabar Gas</title>
+<title><?= $common['webtitle'] ?></title>
   <link rel="icon" href="./img/favicon-32x32.png" type="image/png">
   <link href="./img/favicon-32x32.png" rel="apple-touch-icon">
   <meta charset="utf-8">

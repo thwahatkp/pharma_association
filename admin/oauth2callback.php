@@ -5,7 +5,7 @@ session_start();
 
 $client = new Google\Client();
 $client->setAuthConfigFile('client_secrets.json');
-$client->setRedirectUri('http://' . $_SERVER['HTTP_HOST'] . '/malabarGas/admin/oauth2callback.php');
+$client->setRedirectUri('http://' . $_SERVER['HTTP_HOST'] . '/chamberofpharma/admin/oauth2callback.php');
 $client->addScope('email');
 $client->addScope('profile');
 
@@ -33,10 +33,10 @@ function authenticate_admin()
     unset($_SESSION['access_token']);
     unset($_SESSION['email']);
     unset($_SESSION['name']);
-    $redirect_uri = 'http://' . $_SERVER['HTTP_HOST'] . '/malabarGas/admin/forbidden.php';
+    $redirect_uri = 'http://' . $_SERVER['HTTP_HOST'] . '/chamberofpharma/admin/forbidden.php';
     header('Location: ' . filter_var($redirect_uri, FILTER_SANITIZE_URL));
   } else {
-    $redirect_uri = 'http://' . $_SERVER['HTTP_HOST'] . '/malabarGas/admin/index.php';
+    $redirect_uri = 'http://' . $_SERVER['HTTP_HOST'] . '/chamberofpharma/admin/index.php';
     header('Location: ' . filter_var($redirect_uri, FILTER_SANITIZE_URL));
   }
 }

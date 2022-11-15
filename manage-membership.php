@@ -2,8 +2,7 @@
 require_once('./utils/FileUtil.php');
 
 $database = require('./database/bootstrap.php');
-
-if(isset($_POST['name'])){
+if ($_POST['name'] != "") {
     $membership = $app['database']->insert('membership', [
         'company_name' => $_POST['name'],
         'address' => $_POST['address'],
@@ -18,12 +17,10 @@ if(isset($_POST['name'])){
         'division' => $_POST['division'],
         'other_state' => $_POST['state'],
     ]);
-        echo "working";
-        return ;
+    echo "working";
 }
-else{
-    echo "1";
-}
+
+?>
     
 
     

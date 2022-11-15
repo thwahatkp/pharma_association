@@ -1,7 +1,6 @@
 <?php
 $database = require 'database/bootstrap.php';
-$products = $app['database']->GetProducts();
-$testimonials = $app['database']->GetFranchisees();
+$title = require('./includes/common.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -23,7 +22,7 @@ $testimonials = $app['database']->GetFranchisees();
     <link rel="shortcut icon" type="image/x-icon" href="./img/favicon-32x32.png" />
 
 
-    <title>Malabar Gas</title>
+    <title><?= $common['webtitle'] ?></title>
 
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />

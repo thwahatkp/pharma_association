@@ -46,9 +46,6 @@ if (isset($_SESSION['access_token']) && $_SESSION['access_token']) {
     $database = require '../database/bootstrap.php';
 
     $enquiry_count = $app['database']->GetTotalCount('enquiry');
-    $testimonial_count = $app['database']->GetTotalCount('testimonial');
-    $careers_count = $app['database']->GetTotalCount('careers');
-    $application_count = $app['database']->GetTotalCount('applications');
 
 
     include('shared-views/header.php');
@@ -105,7 +102,7 @@ if (isset($_SESSION['access_token']) && $_SESSION['access_token']) {
                         <i class="bi bi-person"></i>
                       </div>
                       <div class="ps-3">
-                        <h6><?php echo $careers_count ?></h6>
+                        <h6><?php  ?></h6>
                         <span class="text-danger small pt-1 fw-bold"></span> <span class="text-muted small pt-2 ps-1">Careers</span>
                       </div>
                     </div>
@@ -122,7 +119,7 @@ if (isset($_SESSION['access_token']) && $_SESSION['access_token']) {
                         <i class="bi bi-chat-left-quote"></i>
                       </div>
                       <div class="ps-3">
-                        <h6><?php echo $testimonial_count ?></h6>
+                        <h6><?php ?></h6>
                         <span class="text-danger small pt-1 fw-bold"></span> <span class="text-muted small pt-2 ps-1">Testimonials</span>
                       </div>
                     </div>
@@ -139,7 +136,7 @@ if (isset($_SESSION['access_token']) && $_SESSION['access_token']) {
                         <i class="bi bi-person"></i>
                       </div>
                       <div class="ps-3">
-                        <h6><?php echo $application_count ?></h6>
+                        <h6><?php ?></h6>
                         <span class="text-danger small pt-1 fw-bold"></span> <span class="text-muted small pt-2 ps-1">Applications</span>
                       </div>
                     </div>
@@ -178,6 +175,6 @@ if (isset($_SESSION['access_token']) && $_SESSION['access_token']) {
 
 <?php
 } else {
-  $redirect_uri = 'http://' . $_SERVER['HTTP_HOST'] . '/malabargas/admin/pages-login.php';
+  $redirect_uri = 'http://' . $_SERVER['HTTP_HOST'] . '/chamberofpharma/admin/pages-login.php';
   header('Location: ' . filter_var($redirect_uri, FILTER_SANITIZE_URL));
 }

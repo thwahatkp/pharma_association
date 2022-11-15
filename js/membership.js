@@ -27,6 +27,10 @@ function submitForm(){
     let partnersName = partner1name+","+partner2name;
     let partnersMob = partner1mob+","+partner2mob;
 
+    partnersName === "," ? partnersName="none" : partnersName = partnersName;
+    partnersMob === "," ? partnersMob="none" : partnersMob = partnersMob;
+
+
      state === "" ? state="No" : state=state;
 
     $.ajax({
@@ -46,10 +50,8 @@ function submitForm(){
             division:division,
             state:state
         },
-        success:(dat)=>{
-            alert("success"+dat);
-        },error:(err)=>{
-            alert(err);
+        success:function(data){
+            alert("data successfully sented");
         }
     })
-}
+ }

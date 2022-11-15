@@ -1,10 +1,10 @@
-
+<?php $title = require('../includes/common.php') ?>
 <header id="header" class="header fixed-top d-flex align-items-center">
 
   <div class="d-flex align-items-center justify-content-between">
     <a href="index.php" class="logo d-flex align-items-center">
 
-      <span class="d-none d-lg-block">Malabar Gas</span>
+      <span class="d-none d-lg-block"><?= $common['webtitle'] ?></span>
     </a>
     <i class="bi bi-list toggle-sidebar-btn"></i>
   </div>

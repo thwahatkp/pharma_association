@@ -1,7 +1,6 @@
 ﻿<?php
 $database = require 'database/bootstrap.php';
-$products = $app['database']->GetProducts();
-$testimonials = $app['database']->GetTestimonials();
+$title = require('./includes/common.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -23,7 +22,7 @@ $testimonials = $app['database']->GetTestimonials();
   <link rel="shortcut icon" type="image/x-icon" href="./img/favicon-32x32.png" />
 
 
-  <title>Malabar Gas</title>
+  <title><?= $common['webtitle'] ?></title>
 
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -181,10 +180,7 @@ $testimonials = $app['database']->GetTestimonials();
                           text-shadow: 2px 2px 4px #000000;
                           margin-top: 10%;
                         ">
-                      Malabar Gas is inviting dealerships from
-                      under-represented <br>
-                      locations as part of its business
-                      expansion.
+                      Providing innovative healthcare solutions to the society
                     </div>
 
                     <a class="tp-caption rev-btn tc-btnshadow bg-primary tp-rs-menulink" href="tel: 0460 2227420" target="_blank" id="slide-100-layer-5" data-x="['center','center','center','center']" data-hoffset="['-510','-335','-100','-80']" data-y="['middle','middle','middle','middle']" data-voffset="['160','90','80','90']" data-lineheight="['18','18','18','18']" data-whitespace="nowrap" data-type="button" data-actions="" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":900,"speed":2000,"frame":"0","from":"x:-50px;z:0;rX:0;rY:0;rZ:0;sX:1.1;sY:1.1;skX:0;skY:0;opacity:0;fbr:100;","bgcolor":"#000000","to":"o:1;fbr:100;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","bgcolor":"#000000","to":"opacity:0;fbr:100;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"150","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;fbr:90%;","style":"c:rgba(255,255,255,1);"}]' data-textalign="['center','center','center','center']" data-paddingtop="[15,15,15,10]" data-paddingright="[30,30,30,20]" data-paddingbottom="[15,15,15,10]" data-paddingleft="[30,30,30,20]" style="
@@ -199,7 +195,7 @@ $testimonials = $app['database']->GetTestimonials();
                       Call Now
                     </a>
 
-                    <a class="tp-caption rev-btn tc-btnshadow tp-rs-menulink bg-primary" href="./about.php" target="_blank" id="slide-100-layer-6" data-x="['center','center','center','center']" data-hoffset="['-340','-160','70','70']" data-y="['middle','middle','middle','middle']" data-voffset="['160','90','80','90']" data-lineheight="['18','18','18','18']" data-whitespace="nowrap" data-type="button" data-actions="" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":900,"speed":2000,"frame":"0","from":"x:-50px;z:0;rX:0;rY:0;rZ:0;sX:1.1;sY:1.1;skX:0;skY:0;opacity:0;fbr:100;","bgcolor":"#000000","to":"o:1;fbr:100;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","bgcolor":"#000000","to":"opacity:0;fbr:100;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"150","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;fbr:90%;","style":"c:rgba(255,255,255,1);"}]' data-textalign="['center','center','center','center']" data-paddingtop="[15,15,15,10]" data-paddingright="[30,30,30,20]" data-paddingbottom="[15,15,15,10]" data-paddingleft="[30,30,30,20]" style="
+                    <!-- <a class="tp-caption rev-btn tc-btnshadow tp-rs-menulink bg-primary" href="./about.php" target="_blank" id="slide-100-layer-6" data-x="['center','center','center','center']" data-hoffset="['-340','-160','70','70']" data-y="['middle','middle','middle','middle']" data-voffset="['160','90','80','90']" data-lineheight="['18','18','18','18']" data-whitespace="nowrap" data-type="button" data-actions="" data-responsive_offset="off" data-responsive="off" data-frames='[{"delay":900,"speed":2000,"frame":"0","from":"x:-50px;z:0;rX:0;rY:0;rZ:0;sX:1.1;sY:1.1;skX:0;skY:0;opacity:0;fbr:100;","bgcolor":"#000000","to":"o:1;fbr:100;","ease":"Power3.easeInOut"},{"delay":"wait","speed":500,"frame":"999","bgcolor":"#000000","to":"opacity:0;fbr:100;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"150","ease":"Power1.easeInOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;fbr:90%;","style":"c:rgba(255,255,255,1);"}]' data-textalign="['center','center','center','center']" data-paddingtop="[15,15,15,10]" data-paddingright="[30,30,30,20]" data-paddingbottom="[15,15,15,10]" data-paddingleft="[30,30,30,20]" style="
                           z-index: 8;
                           letter-spacing: 2px;
                           white-space: nowrap;
@@ -209,7 +205,7 @@ $testimonials = $app['database']->GetTestimonials();
                           text-transform: uppercase;
                         ">
                       About Us
-                    </a>
+                    </a> -->
                   </li>
 
 
@@ -290,9 +286,9 @@ $testimonials = $app['database']->GetTestimonials();
                           <h2 class="m-b15 title">Chamber of Pharma.<br><span class="text-primary"> Since
                               2016</span></h2>
                           <h4 class="title" style=" color: #999;">
-                          Chamber of Pharma is an independent
+                            Chamber of Pharma is an independent
                           </h4>
-                          <p class="m-b30" style="text-align:justify ;">
+                          <p class="m-b30" style="text-align:justify ; font-size:1.9rem;">
                             Chamber of Pharma is an independent and we'll recognised organisation of pharmaceutical marketing and manufacturing companies of kerala.we are the one and only organisation of this segment.
                             Chamber of Pharma maintain and honour the dignity of pharmaceutical marketing companies of Kerala.</p>
 
@@ -313,16 +309,34 @@ $testimonials = $app['database']->GetTestimonials();
         <div class="section-full content-inner bg-gray wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s">
           <div class="container">
             <div class="section-head text-black text-center">
-              <h2 class="title">Lorem, ipsum dolor.</h2>
+              <h2 class="title"><?= $common['webtitle']?></h2>
               <p>Lorem ipsum dolor sit amet consectetur.</p>
             </div>
             <div class="row">
               <div class="col-lg-12">
                 <div class="img-carousel-dots owl-theme owl-dots-none owl-carousel owl-btn-center-lr owl-btn-3">
-                  <div class="item">
-                    <img src="./img/vision.jpeg" style="border-radius: 3%;" alt="">
+                <div class="item" style="max-width: 90%;">
+                <a href="./gallery.php">
+                  <img src="./img/banner/carousal1.jpeg" style="border-radius: 3%;" alt="">
+                </a>
                   </div>
-                  <div class="item">
+                  <div class="item" style="max-width: 90%;">
+                <a href="./gallery.php">
+                  <img src="./img/banner/carousal2.jpeg" style="border-radius: 3%;" alt="">
+                </a>
+                  </div>
+                  <div class="item" style="max-width: 90%;">
+                <a href="./gallery.php">
+                  <img src="./img/banner/carousal3.jpeg" style="border-radius: 3%;" alt="">
+                </a>
+                  </div>
+                  <div class="item" style="max-width: 90%;">
+                <a href="./gallery.php">
+                  <img src="./img/banner/carousal4.jpeg" style="border-radius: 3%;" alt="">
+                </a>
+                  </div>
+
+                  <!-- <div class="item">
                     <div class="service-box style1">
                       <div class="icon-xl m-b20 text-primary radius">
                         <a href="portfolio-details.html" class="icon-cell"><i class="ti-alarm-clock"></i></a>
@@ -367,53 +381,12 @@ $testimonials = $app['database']->GetTestimonials();
 
                       </h3>
                     </div>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-        <div class="section-full content-inner-2 bg-gray wow fadeIn" data-wow-duration="2s" data-wow-delay="0.3s">
-          <div class="container">
-            <div class="section-head text-black text-center">
-              <h2 class="title">Testimonials</h2>
-
-            </div>
-            <div class="testimonial-box-carousel owl-carousel m-b5 owl-btn-center-lr owl-btn-2 radius-no owl-btn-md owl-theme primary owl-dots-none">
-              <?php
-              foreach ($testimonials as $testimonial) { ?>
-                <div class="item">
-                  <div class="testimonial-11 testimonial-box">
-                    <div class="testimonial-pic">
-                      <img src="<?php echo 'admin/' . $testimonial->img_path ?>" alt="" />
-                    </div>
-                    <div class="testimonial-detail quote-left quote-right">
-                      <div class="testimonial-text">
-                        <p>
-                          <?php echo $testimonial->message ?>
-                        </p>
-                      </div>
-                      <h5 class="testimonial-name text-primary m-t0 m-b5">
-                        <?php echo $testimonial->name ?>
-                      </h5>
-                      <span class="testimonial-position">
-                        <?php echo $testimonial->title ?>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              <?php } ?>
-
-
-            </div>
-          </div>
-        </div>
-
-
-
-
-
       </div>
 
     </div>

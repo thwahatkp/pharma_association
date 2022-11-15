@@ -1,3 +1,4 @@
+<?php $title = require('./includes/common.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,7 +19,7 @@
     <link rel="shortcut icon" type="image/x-icon" href="./img/favicon-32x32.png" />
 
 
-    <title>Malabar Gas</title>
+    <title><?= $common['webtitle'] ?></title>
 
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -146,7 +147,7 @@
                             <div class="row d-flex">
                                 <div class="col-lg-6 col-md-12 m-b30">
                                     <div class="video-bx">
-                                        <img src="./img/vision.jpeg" alt="Signature">
+                                        <img src="./img/vision.jpg" alt="Signature">
 
                                     </div>
                                 </div>
@@ -154,7 +155,7 @@
                                     <div class="content-bx1">
                                         <h2 class="m-b15 title">Vision</h2>
 
-                                        <p style="text-align:justify ;" class="m-b30">
+                                        <p style="text-align:justify ; font-size:1.6rem;" class="m-b30">
                                             provide greater access to quality healthcare of global standards , affordable to society
                                         </p>
 
@@ -168,22 +169,22 @@
                     <div class="container">
                         <div class="section-content">
                             <div class="row d-flex">
-                            <div class="col-lg-6 col-md-12 m-b30">
+                                <div class="col-lg-6 col-md-12 m-b30">
                                     <div class="video-bx">
                                         <img src="./img/mission.jpeg" alt="Signature">
 
                                     </div>
                                 </div>
-                            <div class="col-lg-6 col-md-12 m-b30 align-self-center video-infobx">
+                                <div class="col-lg-6 col-md-12 m-b30 align-self-center video-infobx">
                                     <div class="content-bx1">
                                         <h2 class="m-b15 title">Mission</h2>
 
-                                        <p style="text-align:justify ;" class="m-b30">
-                                        Chamber of Pharma works together to overcome the issues faced by our members and attain positive outcome.
-Chamber of Pharma always in coordination with similar organisations across India for keeping the pride of the represented segment .
-When we look back with pride and satisfaction ,we could say that we have been able to work an organisation as socially committed business community.
-Today Chamber of Pharma Enterprenurs as an organisation has more than 100 pharmaceutical companies operating in Kerala.
-Our member companies offer employment opportunities more than 4000 employees and also providing ample business opportunities for various supporting industries .
+                                        <p style="text-align:justify ; font-size:1.6rem;" class="m-b30">
+                                            Chamber of Pharma works together to overcome the issues faced by our members and attain positive outcome.
+                                            Chamber of Pharma always in coordination with similar organisations across India for keeping the pride of the represented segment .
+                                            When we look back with pride and satisfaction ,we could say that we have been able to work an organisation as socially committed business community.
+                                            Today Chamber of Pharma Enterprenurs as an organisation has more than 100 pharmaceutical companies operating in Kerala.
+                                            Our member companies offer employment opportunities more than 4000 employees and also providing ample business opportunities for various supporting industries .
                                         </p>
 
                                     </div>

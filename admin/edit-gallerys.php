@@ -154,6 +154,6 @@ input.addEventListener('change', (event) => {
 
 <?php
 } else {
-  $redirect_uri = 'http://' . $_SERVER['HTTP_HOST'] . '/malabargas/admin/pages-login.php';
+  $redirect_uri = 'http://' . $_SERVER['HTTP_HOST'] . '/chamberofpharma/admin/pages-login.php';
   header('Location: ' . filter_var($redirect_uri, FILTER_SANITIZE_URL));
 }

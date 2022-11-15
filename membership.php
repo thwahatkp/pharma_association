@@ -1,7 +1,6 @@
 <?php
 $database = require 'database/bootstrap.php';
-$franchisees = $app['database']->GetFranchisees();
-$jobDetails = $app['database']->GetJobDetails();
+$title = require('./includes/common.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -23,7 +22,7 @@ $jobDetails = $app['database']->GetJobDetails();
     <link rel="shortcut icon" type="image/x-icon" href="./img/favicon-32x32.png" />
 
 
-    <title>Malabar Gas</title>
+    <title><?= $common['webtitle'] ?></title>
 
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -268,7 +267,7 @@ $jobDetails = $app['database']->GetJobDetails();
                                             <input id="state" type="text" class="form-control mb-2" name=""
                                                 placeholder="State" />
                                           </div>
-                                          <button class="btn btn-primary" type="submit" style="float: right; width:12%;" >Apply</button>
+                                          <button class="btn btn-primary" type="submit" id="submit" style="float: right; width:12%;" >Apply</button>
 
                                     </form>
 
@@ -373,7 +372,6 @@ $jobDetails = $app['database']->GetJobDetails();
 
 
     </div>
-
 
     <script src="js/jquery.min.js"></script>
 

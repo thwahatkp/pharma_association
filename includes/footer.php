@@ -5,7 +5,7 @@
           ">
         <div class="container">
           <div class="row">
-            <!-- <div class="col-md-3 col-5 col-xl-2 col-lg-2 col-sm-6 footer-col-4">
+            <div class="col-md-3 col-5 col-xl-2 col-lg-2 col-sm-6 footer-col-4">
               <div class="widget widget_services border-0">
                 <h5 class="footer-title text-white">Company</h5>
                 <ul>
@@ -13,10 +13,10 @@
                   <li><a href="./about.php">About</a></li>
                   <li><a href="./gallery.php">Gallery</a></li>
 
-                  <li><a href="./contact.php">Contact </a></li>
+                  <li><a href="./membership.php">membership </a></li>
                 </ul>
               </div>
-            </div> -->
+            </div>
             <!-- <div class="col-md-3 col-7 col-xl-2 col-lg-3 col-sm-6 footer-col-4">
               <div class="widget widget_services border-0">
                 <h5 class="footer-title text-white">Useful Link</h5>
