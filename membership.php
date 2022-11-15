@@ -101,7 +101,7 @@ $title = require('./includes/common.php');
 
                                 </li>
                                 <li class=" has-mega-menu homedemo">
-                                    <a href="./about.php">About</a>
+                                    <a href="./index.php#aboutuso">About</a>
 
                                 <li class=" has-mega-menu homedemo">
                                     <a href="./gallery.php">Gallery</a>
@@ -172,86 +172,84 @@ $title = require('./includes/common.php');
                             <div class="row filter-box filters">
 
                                 <div class="col-md-10 col-sm-10" style="margin: 2px auto;">
-                                    <form action="" method="post" onsubmit="submitForm()" >
+                                <a class="btn btn-primary mb-4" href="./img/download/chamber-of-pharma.jpeg" style="width: 100%;" download >Download Form</a>
+                                    <form action="" onsubmit="submitForm()" method="post"  >
                                         <!-- <div class="search-wrap"> -->
                                         <label class="mb-2 font-size-14">Company name</label>
-                                        <input id="fname" type="text" class="form-control mb-2"
+                                        <input id="fname" type="text" class="form-control mb-2" required
                                             placeholder="Company"  />
 
                                         <label class="mb-2 font-size-14">Address in kerala</label>
-                                        <textarea class="form-control mb-4" placeholder="Address"
-                                            id="address" rows="3"></textarea>
-                                        <div class="selctbtn form-control">
-
+                                        <textarea class="form-control" placeholder="Address" required
+                                            id="address" rows="3"></textarea><br>
                                             <div class="form-check form-check-inline">
                                                 <input class="form-check-input" type="radio" name="inlineRadioOptions"
                                                     id="inlineRadio1" value="Proprietorship">
                                                 <label class="form-check-label font-size-14"
                                                     for="inlineRadio1">Proprietorship</label>
-                                            </div>
+                                            </div><br>
                                             <div class="form-check form-check-inline">
-                                                <input class="form-check-input" type="radio" name="inlineRadioOptions"
+                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" 
                                                     id="inlineRadio2" value="Partnership">
                                                 <label class="form-check-label font-size-14"
                                                     for="inlineRadio2">Partnership</label>
-                                            </div>
+                                            </div><br>
                                             <div class="form-check form-check-inline">
                                                 <input class="form-check-input" type="radio" name="inlineRadioOptions"
                                                     id="inlineRadio3" value="PVT LTD Company">
                                                 <label class="form-check-label font-size-14 mb-4 "
                                                     for="inlineRadio3">PVT LTD Company</label>
                                             </div>
-                                        </div>
                                         <br>
 
                                         <label class="mb-2 font-size-14">Name of managing partner / managing
                                             director</label>
-                                        <input id="partner-director" type="text" class="form-control mb-2" name=""
+                                        <input id="partner-director" type="text" class="form-control mb-2" name="" required
                                             placeholder="Partner / Director" />
 
                                         <label class="mb-2 font-size-14">Mobile</label>
-                                        <input id="mobile-no" type="number" maxlength="10" class="form-control mb-2" name=""
+                                        <input id="mobile-no" type="number"  class="form-control mb-2" name="" maxlength="10" required
                                             placeholder="Mobile no" />
 
                                         <label class="mb-2 font-size-14">Email</label>
-                                        <input id="email" type="email" class="form-control mb-2" name=""
+                                        <input id="email" type="email" class="form-control mb-2" name="" required
                                             placeholder="Email" />
 
                                         <label class="mb-2 font-size-14">Name of Partners/Directors with mobile
                                             no</label><br>
                                         <div class="col-md-6 col-sm-6 mb-2">
-                                            <input id="partner1name" type="text" class="form-control mb-2" name=""
+                                            <input id="partner1name" type="text" class="form-control mb-2" name="" 
                                                 placeholder="Name" />
                                         </div>
 
                                         <div class="col-md-6 col-sm-6 mb-2">
-                                            <input id="partner1mob" type="number" maxlength="10" class="form-control mb-2" name=""
+                                            <input id="partner1mob" type="number" maxlength="10"  class="form-control mb-2" name="" 
                                                 placeholder="Mobile no" />
                                         </div>
 
                                         <div class="col-md-6 col-sm-6 mb-2">
-                                            <input id="partner2name" type="text" class="form-control mb-2" name=""
+                                            <input id="partner2name" type="text" class="form-control mb-2" name="" 
                                                 placeholder="Name" />
                                         </div>
 
                                         <div class="col-md-6 col-sm-6 mb-2">
-                                            <input id="partner2mob" type="text" class="form-control mb-2" name=""
-                                                placeholder="Mobile no" />
+                                            <input id="partner2mob" type="number" class="form-control mb-2" name=""
+                                                placeholder="Mobile no"  maxlength="10"/>
                                         </div>
 
                                         <label class="mb-2 font-size-14">Name of trademark brands <span
                                                 style="font-size: 11px;">(either TM or REGISTERED)</span> </label>
-                                        <input id="brand" type="text" class="form-control mb-2" name=""
+                                        <input id="brand" type="text" class="form-control mb-2" name="" required
                                             placeholder="Brands" />
 
                                         <div class="col-md-6 col-sm-6 mb-2">
                                             <label class="mb-2 font-size-14">Year of establishment</label><br>
-                                            <input id="date" type="date" class="form-control mb-2" name="" />
+                                            <input id="date" type="date" class="form-control mb-2" name="" required />
                                         </div>
 
                                         <div class="col-md-6 col-sm-6 mb-2">
                                             <label class="mb-2 font-size-14">Name of the division if any</label><br>
-                                            <input id="division" type="text" class="form-control mb-2" name="" />
+                                            <input id="division" type="text" class="form-control mb-2" name="" required />
                                         </div>
 
                                         <label class="mb-2 font-size-14">Operating any other state</label><br>
@@ -267,7 +265,8 @@ $title = require('./includes/common.php');
                                             <input id="state" type="text" class="form-control mb-2" name=""
                                                 placeholder="State" />
                                           </div>
-                                          <button class="btn btn-primary" type="submit" id="submit" style="float: right; width:12%;" >Apply</button>
+                                          <button class="btn btn-primary" id="submit" type="submit" style="float: right; width:25%" >Apply</button>
+           
 
                                     </form>
 
@@ -456,16 +455,7 @@ $title = require('./includes/common.php');
     <script src="https://js.stripe.com/v3/"></script>
 
     <script src="./js/scripts.js"></script>
-    <a href="https://api.whatsapp.com/send?text=Hi Malabar Gas&phone=+919446658372" class="whatsapp_float"
-        target="_blank" rel="noopener noreferrer">
-        <i class="fa fa-whatsapp whatsapp-icon"></i>
-    </a>
-
-    <div class="contact-btn">
-        <a class="phone_float" href="tel:0460 2227420">
-            <img id="whats" src="./img/contact-redirect.png" id="contact-redirect" alt="" />
-        </a>
-    </div>
+    <?php require("./includes/call-whatsapp.php")?>
 </body>
 <script>
     $(document).ready(function () {

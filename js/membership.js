@@ -7,8 +7,8 @@ if(btnStatus){
     
 }
 })
-
 function submitForm(){
+
     let name = $('#fname').val();
     let address = $('#address').val();
     let checkbox = $('.form-check-input:checked').val();
@@ -24,8 +24,8 @@ function submitForm(){
     let division = $('#division').val();
     let state = $('#state').val();
 
-    let partnersName = partner1name+","+partner2name;
-    let partnersMob = partner1mob+","+partner2mob;
+    let partnersName = partner1name+','+partner2name;
+    let partnersMob = partner1mob+','+partner2mob;
 
     partnersName === "," ? partnersName="none" : partnersName = partnersName;
     partnersMob === "," ? partnersMob="none" : partnersMob = partnersMob;
@@ -50,8 +50,9 @@ function submitForm(){
             division:division,
             state:state
         },
-        success:function(data){
-            alert("data successfully sented");
+        success:function(){
+            alert("success");
+            // window.location="../chamberofpharma/thank-you.php";
         }
     })
  }

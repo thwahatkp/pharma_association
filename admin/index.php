@@ -96,7 +96,7 @@ if (isset($_SESSION['access_token']) && $_SESSION['access_token']) {
               <div class="col-xxl-4 col-md-6">
                 <div class="card info-card customers-card">
                   <div class="card-body">
-                    <h5 class="card-title">Total Careers</h5>
+                    <h5 class="card-title">Total Membership</h5>
                     <div class="d-flex align-items-center">
                       <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
                         <i class="bi bi-person"></i>
@@ -109,41 +109,6 @@ if (isset($_SESSION['access_token']) && $_SESSION['access_token']) {
                   </div>
                 </div>
               </div>
-
-              <div class="col-xxl-4 col-md-6">
-                <div class="card info-card customers-card">
-                  <div class="card-body">
-                    <h5 class="card-title">Total Testimonials</h5>
-                    <div class="d-flex align-items-center">
-                      <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                        <i class="bi bi-chat-left-quote"></i>
-                      </div>
-                      <div class="ps-3">
-                        <h6><?php ?></h6>
-                        <span class="text-danger small pt-1 fw-bold"></span> <span class="text-muted small pt-2 ps-1">Testimonials</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-xxl-4 col-md-6">
-                <div class="card info-card customers-card">
-                  <div class="card-body">
-                    <h5 class="card-title">Total Job Applications</h5>
-                    <div class="d-flex align-items-center">
-                      <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                        <i class="bi bi-person"></i>
-                      </div>
-                      <div class="ps-3">
-                        <h6><?php ?></h6>
-                        <span class="text-danger small pt-1 fw-bold"></span> <span class="text-muted small pt-2 ps-1">Applications</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
 
 
             </div>

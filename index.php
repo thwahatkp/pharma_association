@@ -84,7 +84,7 @@ $title = require('./includes/common.php');
 
                 </li>
                 <li class="has-mega-menu homedemo">
-                  <a href="./about.php">About</a>
+                  <a href="./redirect-about.php">About</a>
 
                 <li class=" has-mega-menu homedemo">
                   <a href="./gallery.php">Gallery</a>
@@ -139,7 +139,7 @@ $title = require('./includes/common.php');
 
                   <li data-index="rs-100" data-transition="slideoververtical" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
 
-                    <img src="./img/banner/back.jpg" alt="" data-lazyload="./img/banner/back.jpg" data-bgposition="center center" data-kenburns="on" data-duration="4000" data-ease="Power3.easeInOut" data-scalestart="150" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-blurstart="0" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="4" class="rev-slidebg" data-no-retina="" />
+                    <img src="./img/banner/back1.jpg" alt="" data-lazyload="./img/banner/back1.jpg" data-bgposition="center center" data-kenburns="on" data-duration="4000" data-ease="Power3.easeInOut" data-scalestart="150" data-scaleend="100" data-rotatestart="0" data-rotateend="0" data-blurstart="0" data-blurend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="4" class="rev-slidebg" data-no-retina="" />
 
 
                     <div class="tp-caption tp-shape tp-shapewrapper" id="slide-100-layer" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']" data-width="full" data-height="full" data-whitespace="nowrap" data-type="shape" data-basealign="slide" data-responsive_offset="off" data-responsive="off" data-frames='[{"from":"opacity:0;","speed":1000,"to":"o:1;","delay":0,"ease":"Power4.easeOut"},{"delay":"wait","speed":1000,"to":"opacity:0;","ease":"Power4.easeOut"}]' data-textalign="['left','left','left','left']" data-paddingtop="[0,0,0,0]" data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]" style="
@@ -226,13 +226,12 @@ $title = require('./includes/common.php');
           <div class="container">
             <div class="row">
               <div class="col-lg-9 text-white">
-                <h2 class="title">Lorem ipsum dolor sit amet.</h2>
+                <h2 class="title">Become a member.</h2>
                 <p class="m-b0">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing.
                 </p>
               </div>
               <div class="col-lg-3 d-flex">
-                <a href="./franchisee.php" class="site-button white align-self-center outline ms-auto radius-xl outline-2 btnhover16 btnhover16">Click
+                <a href="./membership.php" class="site-button white align-self-center outline ms-auto radius-xl outline-2 btnhover16 btnhover16">Click
                   Here
                 </a>
               </div>
@@ -271,13 +270,13 @@ $title = require('./includes/common.php');
                 </div>
               </div>
 
-              <div class="section-full content-inner bg-white video-section">
+              <div class="section-full content-inner bg-white video-section" id="aboutus">
                 <div class="container">
                   <div class="section-content">
                     <div class="row d-flex">
                       <div class="col-lg-6 col-md-12 m-b30">
                         <div class="video-bx">
-                          <img src="./img/WhatsApp-removebg.png" alt="Signature">
+                          <img src="./img/about/about6.jpg" alt="Signature" style="border-radius: 2rem;">
 
                         </div>
                       </div>
@@ -286,12 +285,21 @@ $title = require('./includes/common.php');
                           <h2 class="m-b15 title">Chamber of Pharma.<br><span class="text-primary"> Since
                               2016</span></h2>
                           <h4 class="title" style=" color: #999;">
-                            Chamber of Pharma is an independent
+                            <!-- Chamber of Pharma is an independent -->
                           </h4>
-                          <p class="m-b30" style="text-align:justify ; font-size:1.9rem;">
-                            Chamber of Pharma is an independent and we'll recognised organisation of pharmaceutical marketing and manufacturing companies of kerala.we are the one and only organisation of this segment.
-                            Chamber of Pharma maintain and honour the dignity of pharmaceutical marketing companies of Kerala.</p>
+                          <p class="m-b30" style="text-align:justify ; font-size:1.9rem;" >
+                            The Chamber of Pharma is an independent and we'll recognised organisation of pharmaceutical marketing and manufacturing companies of Kerala. we are the one and only organization in this segment.
+                            Chamber of Pharma maintain and honour the dignity of pharmaceutical marketing companies of Kerala.
+                            We promote morals and ethics in the pharmaceutical marketing business.
+                            We are trying to promote pharmaceutical marketing entrepreneurship in at most ethical way.
+                            The Chamber of Pharma works together to overcome the issues faced by our members and attain positive outcomes.
+                            The Chamber of Pharma always in coordination with similar organisations across India for keeping the pride of the represented segment .
+                            When we look back with pride and satisfaction ,we could say that we have been able to work an organisation as socially committed business community.
+                            Today Chamber of Pharma Entrepreneurs as an organization has more than 100 pharmaceutical companies operating in Kerala.
+                            Our member companies offer employment opportunities to more than 4000 employees and also provide ample business opportunities for various supporting industries.
+                          </p>
 
+                          <div class="" id="aboutuso"></div>
                         </div>
                       </div>
                     </div>
@@ -305,35 +313,78 @@ $title = require('./includes/common.php');
           </div>
         </div>
 
+        <div id="section" >
+
+          <div class="container col-xxl-8 px-4 py-5">
+            <div class="container my-5">
+              <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+                <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                  <h1 class="display-4 fw-bold lh-1 text-primary">VISION</h1>
+                  <p class="lead">To serve ailing human beings with quality medicines at affordable prices by continuously upgrading systems, technology, and knowledge for excellent productivity and quality. To work towards human welfare by manufacturing and delivering innovative products for their health and wellness.</p>
+                </div>
+                <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                  <a href="./gallery.php">
+                    <img class="rounded-lg-3" src="./img/banner/vision.jpeg" alt="" width="720">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container col-xxl-8 px-4 py-5">
+            <div class="container my-5">
+              <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+                <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+                  <h1 class="display-4 fw-bold lh-1 text-primary">MISSION</h1>
+                  <p class="lead">To Ensure responsible, sustainable, and ethical way of pharmaceutical business practices among member organizations.
+
+                    To take the lead role in the welfare and development of the member companies thereby creating a healthy atmosphere for the growth and development of the industry.
+
+                    To provide innovative healthcare solutions to society by combining core competencies of member companies and world-class manufacturers..</p>
+                </div>
+                <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+                  <a href="./gallery.php">
+                    <img class="rounded-lg-3" src="./img/mission.jpeg" alt="" width="720">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+        </div>
+
 
         <div class="section-full content-inner bg-gray wow fadeIn" data-wow-duration="2s" data-wow-delay="0.6s">
           <div class="container">
             <div class="section-head text-black text-center">
-              <h2 class="title"><?= $common['webtitle']?></h2>
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <h2 class="title">Latest Events</h2>
+              <p>chamber of pharma</p>
             </div>
             <div class="row">
               <div class="col-lg-12">
                 <div class="img-carousel-dots owl-theme owl-dots-none owl-carousel owl-btn-center-lr owl-btn-3">
-                <div class="item" style="max-width: 90%;">
-                <a href="./gallery.php">
-                  <img src="./img/banner/carousal1.jpeg" style="border-radius: 3%;" alt="">
-                </a>
+                  <div class="item" style="max-width: 90%;">
+                    <a href="./gallery.php">
+                      <img src="./img/banner/carousal1.jpeg" style="border-radius: 3%; " alt="">
+                    </a>
                   </div>
                   <div class="item" style="max-width: 90%;">
-                <a href="./gallery.php">
-                  <img src="./img/banner/carousal2.jpeg" style="border-radius: 3%;" alt="">
-                </a>
+                    <a href="./gallery.php">
+                      <img src="./img/banner/carousal2.jpeg" style="border-radius: 3%;" alt="">
+                    </a>
                   </div>
                   <div class="item" style="max-width: 90%;">
-                <a href="./gallery.php">
-                  <img src="./img/banner/carousal3.jpeg" style="border-radius: 3%;" alt="">
-                </a>
+                    <a href="./gallery.php">
+                      <img src="./img/banner/carousal3.jpeg" style="border-radius: 3%;" alt="">
+                    </a>
                   </div>
                   <div class="item" style="max-width: 90%;">
-                <a href="./gallery.php">
-                  <img src="./img/banner/carousal4.jpeg" style="border-radius: 3%;" alt="">
-                </a>
+                    <a href="./gallery.php">
+                      <img src="./img/banner/carousal4.jpeg" style="border-radius: 3%;" alt="">
+                    </a>
                   </div>
 
                   <!-- <div class="item">
@@ -570,15 +621,7 @@ $title = require('./includes/common.php');
       });
     });
   </script>
-  <a href="https://api.whatsapp.com/send?text=Hi Malabar Gas&phone=+919446658372" class="whatsapp_float" target="_blank" rel="noopener noreferrer">
-    <i class="fa fa-whatsapp whatsapp-icon"></i>
-  </a>
-
-  <div class="contact-btn">
-    <a class="phone_float" href="tel:0460 2227420">
-      <img id="whats" src="./img/contact-redirect.png" id="contact-redirect" alt="" />
-    </a>
-  </div>
+  <?php require("./includes/call-whatsapp.php")?>
 </body>
 
 </html>

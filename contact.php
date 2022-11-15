@@ -84,7 +84,7 @@ $title = require('./includes/common.php');
 
                 </li>
                 <li class="has-mega-menu homedemo">
-                  <a href="./about.php">About</a>
+                  <a href="./index.php#aboutuso">About</a>
 
                 <li class=" has-mega-menu homedemo">
                   <a href="./gallery.php">Gallery</a>
@@ -233,7 +233,8 @@ $title = require('./includes/common.php');
 
 
                         <div class="col-lg-6 m-b30 d-flex">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d124837.09564498941!2d75.39634!3d12.101249!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc833c4ce911c7271!2sMalabar%20Fuel%20Corporation!5e0!3m2!1sen!2sin!4v1659088728329!5m2!1sen!2sin" class="align-self-stretch radius-sm" style="border:0; width:100%;  min-height:100%;" allowfullscreen=""></iframe>
+                            <img src="./img/contact.jpg" alt="no image" style="border-radius: 1rem; width:100%; height:95%;">
+                            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d124837.09564498941!2d75.39634!3d12.101249!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc833c4ce911c7271!2sMalabar%20Fuel%20Corporation!5e0!3m2!1sen!2sin!4v1659088728329!5m2!1sen!2sin" class="align-self-stretch radius-sm" style="border:0; width:100%;  min-height:100%;" allowfullscreen=""></iframe> -->
 
 
                         </div>
@@ -246,99 +247,7 @@ $title = require('./includes/common.php');
 
 
 
-        <footer class="site-footer">
-            <div class="footer-top" style="
-            background-image: url(images/background/bg3.png);
-            background-size: cover;
-          ">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3 col-5 col-xl-2 col-lg-2 col-sm-6 footer-col-4">
-                            <div class="widget widget_services border-0">
-                                <h5 class="footer-title text-white">Company</h5>
-                                <ul>
-                                    <li><a href="./index.php">Home</a></li>
-                                    <li><a href="./about.php">About</a></li>
-                                    <li><a href="./gallery.php">Gallery</a></li>
-
-                                    <li><a href="./contact.php">Contact </a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-7 col-xl-2 col-lg-3 col-sm-6 footer-col-4">
-                            <div class="widget widget_services border-0">
-                                <h5 class="footer-title text-white">Useful Link</h5>
-                                <ul>
-                                    <li><a href="./domestic.php">Domestic LPG </a></li>
-                                    <li><a href="./commercial.php">Commercial LPG</a></li>
-                                    <li><a href="./safety-tips.php">Safety Tips</a></li>
-                                    <li><a href="./franchisee.php">Franchisee</a></li>
-
-
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-6 col-xl-4 col-lg-3 col-sm-6 footer-col-4">
-                            <div class="widget widget_getintuch">
-                                <h5 class="footer-title text-white">Contact us</h5>
-                                <ul>
-                                    <li>
-                                        <i class="ti-location-pin"></i><strong>address</strong> Malabar Fuel Corporation, LPG Bottling Plant
-                                        Elamberampara Pallivayal(P.O),
-                                        Thaliparamba,Kannur
-                                    </li>
-                                    <li>
-                                        <i class="ti-mobile"></i><strong>phone</strong>0460 2227420
-
-                                    </li>
-                                    <li>
-                                        <i class="ti-email"></i><strong>email</strong>info@malabargas.com
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-12 col-xl-4 col-lg-4 footer-col-4">
-                            <div class="widget">
-                                <h5 class="footer-title text-white">
-                                    Malabar Fuel Corporation
-                                </h5>
-                                <p class="text-capitalize m-b20">
-                                    Malabar Fuel Corporation has been continuously involved in
-                                    bottling of LPG as domestic and commercial under the brand
-                                    name of MALABAR GAS since 1996.
-                                </p>
-
-                                <ul class="list-inline m-a0">
-                                    <li>
-                                        <a href="#" class="site-button facebook circle"><i class="fab fa-facebook-f"></i></a>
-                                    </li>
-
-                                    </li>
-                                    <li>
-                                        <a href="#" class="site-button instagram circle"><i class="fab fa-instagram"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#" class="site-button twitter circle"><i class="fab fa-twitter"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="footer-bottom">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 col-sm-6 text-left">
-                            <span> Designed & Developed by
-                                <a href="https://www.codeorganization.com/" target="_blank">CodeOrganization &#128293;</a></span>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </footer>
+        <?php require('./includes/footer.php') ?>
 
 
     </div>
@@ -406,15 +315,7 @@ $title = require('./includes/common.php');
             $(".lazy").Lazy();
         }); /*ready*/
     </script>
-    <a href="https://api.whatsapp.com/send?text=Hi Malabar Gas&phone=+919446658372" class="whatsapp_float" target="_blank" rel="noopener noreferrer">
-        <i class="fa fa-whatsapp whatsapp-icon"></i>
-    </a>
-
-    <div class="contact-btn">
-        <a class="phone_float" href="tel:0460 2227420">
-            <img id="whats" src="./img/contact-redirect.png" id="contact-redirect" alt="" />
-        </a>
-    </div>
+  <?php require("./includes/call-whatsapp.php")?>
 
 </body>
 

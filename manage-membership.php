@@ -2,6 +2,7 @@
 require_once('./utils/FileUtil.php');
 
 $database = require('./database/bootstrap.php');
+echo "working";
 if ($_POST['name'] != "") {
     $membership = $app['database']->insert('membership', [
         'company_name' => $_POST['name'],
@@ -17,7 +18,7 @@ if ($_POST['name'] != "") {
         'division' => $_POST['division'],
         'other_state' => $_POST['state'],
     ]);
-    echo "working";
+    header("location:./chamberofpharma/thank-you.php");
 }
 
 ?>

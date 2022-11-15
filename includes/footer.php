@@ -56,9 +56,8 @@
                 Chamber Of Pharma
                 </h5>
                 <p class="text-capitalize m-b20">
-                  Malabar Fuel Corporation has been continuously involved in
-                  bottling of LPG as domestic and commercial under the brand
-                  name of MALABAR GAS since 1996.
+                Chamber of Pharma is an independent and we'll recognised organisation of pharmaceutical marketing and manufacturing 
+                companies of Kerala. we are the one and only organization in this segment.
                 </p>
 
                 <ul class="list-inline m-a0">

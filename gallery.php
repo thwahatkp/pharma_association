@@ -87,7 +87,7 @@ $title = require('./includes/common.php');
 
                 </li>
                 <li class="has-mega-menu homedemo">
-                  <a href="./about.php">About</a>
+                  <a href="./index.php#aboutuso">About</a>
 
                 <li class="active has-mega-menu homedemo">
                   <a href="./gallery.php">Gallery</a>
@@ -350,15 +350,7 @@ $title = require('./includes/common.php');
             });
         });
     </script>
-    <a href="https://api.whatsapp.com/send?text=Hi Malabar Gas&phone=+919446658372" class="whatsapp_float" target="_blank" rel="noopener noreferrer">
-        <i class="fa fa-whatsapp whatsapp-icon"></i>
-    </a>
-
-    <div class="contact-btn">
-        <a class="phone_float" href="tel:0460 2227420">
-            <img id="whats" src="./img/contact-redirect.png" id="contact-redirect" alt="" />
-        </a>
-    </div>
+  <?php require("./includes/call-whatsapp.php")?>
 </body>
 
 </html>
